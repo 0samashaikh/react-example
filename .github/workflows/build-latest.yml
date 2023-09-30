@@ -17,7 +17,7 @@ jobs:
       - name: clone app
         uses: actions/checkout@v3
         with:
-          repository: react-example
+          repository: 0samashaikh/react-example
           # ssh-key: ${{ secrets.CI_REACT_EXAMPLE_SSH }}
           path: repos/react-example
           ref: main
